@@ -18,7 +18,10 @@ set ( CMAKE_CXX_COMPILER_ID "MSVC" )
 add_compile_options("/W4")
 
 set ( SOURCE_ONE_WEEKEND
-    src/main.cpp)
+    src/main.cpp
+    src/color.h
+    src/ray.h
+    src/vec3.h)
 
 include_directories(src)
 
