@@ -20,7 +20,12 @@ add_compile_options("/W4")
 set ( SOURCE_ONE_WEEKEND
     src/main.cpp
     src/color.h
+    src/hittable.h
+    src/hittable_list.h
+    src/interval.h
     src/ray.h
+    src/rtweekend.h
+    src/sphere.h
     src/vec3.h)
 
 include_directories(src)
